@@ -1,10 +1,13 @@
 # Logs
 logs
+
+#ignore .env file
 .env
 .env.development
 .env.production
 .env.testing
 .env.local
+
 *.log
 npm-debug.log*
 yarn-debug.log*
