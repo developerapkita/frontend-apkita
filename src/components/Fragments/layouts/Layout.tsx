@@ -7,8 +7,8 @@ const Layout: React.FC = () => {
   return (
     <div className="w-screen h-[100vh] grid grid-cols-12 ">
       <Sidebar />
-      <main className="col-span-10 w-full h-full bg-[#4B70F5] pt-4 px-4 overflow-hidden">
-        <div className="w-full h-full rounded-t-[30px] bg-white  px-5 overflow-scroll">
+      <main className="col-span-10 w-full h-full bg-[#4B70F5] p-3 overflow-hidden">
+        <div className="w-full h-full rounded-[10px] bg-white   px-5 overflow-scroll">
           <HeaderDashboard />
           <Outlet />
         </div>
