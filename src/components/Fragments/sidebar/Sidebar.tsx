@@ -7,14 +7,14 @@ import NotesIcon from "../../Icons/NotesIcon";
 import VerifiedIcon from "../../Icons/VerifiedIcon";
 import Setting from "../../Icons/Setting";
 import NavItem from "../../Elements/NavItem";
-
+import Logo from "../../../assets/logo.png";
 const Sidebar: React.FC = () => {
   return (
     <>
       <div className="col-span-2 w-full bg-[#4B70F5] px-5 pt-10 flex flex-col justify-between">
         <div>
-          <div className="w-full mb-14">
-            <h1 className="text-white text-[30px] text-center">Apps Name</h1>
+          <div className="w-full flex justify-center mb-14">
+            <img src={Logo} className="w-[50%] h-full" />
           </div>
           <div className="mb-7">
             <ul>
